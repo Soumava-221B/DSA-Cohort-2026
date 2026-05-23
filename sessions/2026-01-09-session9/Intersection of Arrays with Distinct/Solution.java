@@ -8,14 +8,14 @@ class Solution {
             set.add(num);
         }
         
-        int count = 0;
+        int count1 = 0;
         
         for (int num : b) {
             if (set.contains(num)) {
-                count++;
+                count1++;
             }
         }
         
-        return count;
+        return count1;
     }
 }
